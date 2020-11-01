@@ -76,6 +76,7 @@ export const FoodsContainer = styled.View`
 `;
 
 export const FoodList = styled.View`
+  flex: 1;
   padding: 0 20px;
   margin-top: 16px;
 `;
@@ -87,6 +88,7 @@ export const Food = styled.TouchableOpacity`
   background: #f0f0f5;
   border-radius: 8px;
   margin-bottom: 16px;
+  height: auto;
 `;
 
 export const FoodImageContainer = styled.View`
